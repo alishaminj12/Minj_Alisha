@@ -30,7 +30,7 @@ As the internet's tendrils extend further into our personal, professional, and s
 
 - **Dataset Name:** Internet Access - Households and Individuals.
 - **Description:** This dataset provides an annual assessment of internet usage in Great Britain. It encompasses areas such as frequency of internet use, the array of activities individuals engage in while online, and the evolving patterns in online purchasing.
-- **Source:** Office for National Statistics (ONS)
+- **Source:** [Office for National Statistics (ONS)](https://www.ons.gov.uk/)
 
 ### Data Size:
 
@@ -55,7 +55,7 @@ The cumulative size of the data for all years (from 2015 to 2020) is approximate
 
 ### Datasets:
 
-**Online_Shopping_Trends_2008_2020** and **Online_Purchases_2018_2020**
+**Online Shopping Trends (2008-2020)** and **Online Purchases (2018-2020)**
 
 | Feature/Variable | Data Type | Description |
 |---|---|---|
