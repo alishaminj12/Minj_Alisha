@@ -21,7 +21,7 @@ As the internet's tendrils extend further into our personal, professional, and s
 
 1. **Digital Evolution:** How has the landscape of internet penetration in Great Britain transformed from 2015 to 2020, and what implications does this trajectory hold for the future?
 2. **E-commerce Exploration:** As e-commerce platforms burgeon, what patterns of behavior can we discern amongst users? How have shopping habits evolved with increasing digitization, and what does this reveal about modern consumer preferences? 
-    - *E-commerce and Online Behavioral Analysis:* Beyond shopping, what online patterns emerge as users engage with the vast digital realm? This encompasses e-commerce trends, financial activities, and more.
+    - *E-commerce and Online Behavioral Analysis:* How has online shopping behavior transitioned between 2008 to 2020 across various demographics in Great Britain? Between 2018 and 2020, which products or services have been most preferred in online purchases, and how do these choices differ among age groups, genders, and other demographics?
 3. **Digital Trust and Security Landscape:** In a world that's increasingly online, how do perceptions of privacy, data protection, and online security manifest amongst the populace? Are there discernible shifts in trust, and if so, what factors might be influencing them?
 
 ## Data
@@ -57,18 +57,17 @@ The cumulative size of the data for all years (from 2015 to 2020) is approximate
 
 **Online Shopping Trends (2008-2020)** and **Online Purchases (2018-2020)**
 
-| Feature/Variable | Data Type | Description |
-|---|---|---|
-| Year | Integer | The year for which data is collected (from 2008 to 2020) |
-| All | Float | Percentage of all individuals who have shopped online in the last 12 months |
-| Men | Float | Percentage of men who have shopped online in the last 12 months |
-| Women | Float | Percentage of women who have shopped online in the last 12 months |
-| Age Group (16-24) | Float | Percentage of individuals aged 16-24 who have shopped online in the last 12 months |
-| Age Group (25-34) | Float | Percentage of individuals aged 25-34 who have shopped online in the last 12 months |
-| ... | ... | ... |
-| Equality Act disabled | Float | Percentage of individuals who are disabled (as per the Equality Act) who have shopped online in the last 12 months |
-| Not Equality Act disabled | Float | Percentage of individuals who are not disabled (as per the Equality Act) who have shopped online in the last 12 months |
+| Feature/Variable                                  | Data Type | Description                                                       |
+|---------------------------------------------------|-----------|-------------------------------------------------------------------|
+| Year                                              | Integer   | The year for which data is collected (from 2008 to 2020)          |
+| All                                               | Float     | Percentage of all individuals who have shopped online in the last 12 months |
+| Men                                               | Float     | Percentage of men who have shopped online in the last 12 months   |
+| Women                                             | Float     | Percentage of women who have shopped online in the last 12 months |
+| Age Group (16-24, 25-34, 35-44, 45-54, 55-64, 65+)| Float     | Percentage of individuals in the specified age group who have shopped online in the last 12 months |
+| Equality Act disabled                             | Float     | Percentage of individuals who are disabled (as per the Equality Act) who have shopped online in the last 12 months |
+| Not Equality Act disabled                         | Float     | Percentage of individuals who are not disabled (as per the Equality Act) who have shopped online in the last 12 months |
 | Product/Service (e.g., Clothes, Deliveries from restaurants) | String | The category of the product/service purchased online |
+
 
 **Target Variable/Label:** 
 
@@ -78,4 +77,4 @@ The cumulative size of the data for all years (from 2015 to 2020) is approximate
 **Potential Features/Predictors:** 
 
 - Year, Percentage values from different demographic groups from previous years.
-- Product/Service Category, Percentage values from different demographic groups from previous months/years, and overall online shopping trends from the "Online_Shopping_Trends_2008_2020.csv" dataset.
+- Product/Service Category, Percentage values from different demographic groups from previous months/years, and overall online shopping trends from the "Online Shopping Trends (2008-2020)" dataset.
