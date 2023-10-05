@@ -20,10 +20,16 @@ Electricity consumption and its associated metrics such as sales, revenue, and p
   Proper analysis can lead to improved energy policy decisions, smarter business investments, and increased awareness about energy consumption patterns among consumers.
 
 - **Research Questions**:
-  1. How has the electricity consumption pattern changed from 2010 to 2023?
-  2. Which states have seen the most significant changes in their consumption patterns?
-  3. How do sales correlate with revenue and prices?
-
+  1.  **Trends and Patterns Analysis**
+      - How has the overall electricity consumption in the US changed from 2010 to 2023, and have there been discernible geographical and seasonal patterns influencing 
+        these changes?
+  2.  **Economic and Revenue Insight**
+      - How have electricity prices and revenue figures evolved from 2010 to 2023, and is there a correlation between consumption trends, prices, and the overall 
+        revenue across different states?
+  3. **Forward-Looking Analysis and External Influences**
+      - Based on past and current trends, what are the projections for electricity consumption in the next five years, and how have external events and shifts, such as 
+        technological advancements and policy changes, impacted consumption patterns?
+ 
 
 ## Data
 
