@@ -64,7 +64,13 @@ Electricity consumption and its associated metrics such as sales, revenue, and p
 
 **Target for ML Model**: `RESIDENTIAL_Sales`  
 
-**Potential Predictors**: `TOTAL_Revenue`, `TOTAL_Customers`, `TOTAL_Price`, etc.
+**Potential Predictors**:
+- **Year and Month**: Time variables can capture temporal patterns and seasonality in the data.
+- **State**: Different states might have distinct consumption patterns.
+- **RESIDENTIAL_Revenue & RESIDENTIAL_Price**: To understand how sales correspond to revenue and price changes in the residential sector.
+- **COMMERCIAL_Sales & INDUSTRIAL_Sales**: Consumption in other sectors can indirectly affect or reflect residential consumption trends.
+- **TOTAL_Revenue & TOTAL_Price**: A macro perspective, understanding overall revenue and price dynamics can be predictive.
+- **Data Status**: Can be used to weigh recent observations differently since they're preliminary.
 
 
 ## Exploratory Data Analysis (EDA)
