@@ -1,11 +1,13 @@
 # Analysis of Electricity Consumption: Sales, Revenue, and Prices from 2010-2022
 
-### Author: Alisha Minj
+**Author**: Alisha Minj  
+**Prepared for**: UMBC Data Science Master’s Degree Capstone  
 
-* [GitHub Profile](#) - Alisha Minj's GitHub
-* [LinkedIn Profile](#) - Alisha Minj's LinkedIn
-* [PowerPoint Presentation](#) - Link to be updated
-* [YouTube Demo](#) - Link to be updated
+🔗 **GitHub**: [Alisha Minj's GitHub](https://github.com/DATA-606-2023-FALL-THURSDAY/Minj_Alisha)  
+🔗 **LinkedIn**: [Alisha Minj's LinkedIn](https://www.linkedin.com/in/alisha-minj)  
+🔗 **PowerPoint Presentation**: [To be updated]  
+🔗 **YouTube Demo**: [To be updated] 
+
 
 
 ## Background
