@@ -29,22 +29,15 @@ Given the scope of the analysis, our primary research questions are:
 4. How does the electricity consumption in Maryland compare with national averages or with neighboring states?
 
 ## **Data**
-* **Description**: This dataset provides insights into electricity consumption metrics of various US states over the span of 12 years.
 
-* **Data sources**: Data acquired from [EIA's official website](https://www.eia.gov/).
-
-* **Data size**: 
-  * 1655 KB
-
-* **Data shape**:
-  * 8313 rows
-  * 24 columns
-
-* **Time period**: 
-  * Data spans from 2010 to 2022.
-
-### **Each Row Represents:** 
-Electricity metrics for a particular state in a specific month and year.
+- **Description**: This dataset provides insights into electricity consumption metrics of various US states over the span of 12 years.
+- **Data sources**: Data acquired from [EIA's official website](https://www.eia.gov/). EIA (U.S. Energy Information Administration) is a principal agency responsible for collecting, analyzing, and disseminating energy information to inform policy-making and public understanding.
+- **Data size**: 1655 KB
+- **Data shape**: 
+  - 8313 rows
+  - 24 columns
+- **Time period**: Data spans from 2010 to 2022.
+- **Each Row Represents**: Electricity metrics for a particular state in a specific month and year.
 
 ### **Data Dictionary**
 
@@ -74,16 +67,11 @@ Electricity metrics for a particular state in a specific month and year.
 | TOTAL_Customers           | Object    | Total count of customers from all sectors        | Numerical values                            |
 | TOTAL_Price               | Object    | Average price across all sectors                 | Numerical values in Cents/kWh               |
 
-* **Description**: This dataset provides insights into electricity consumption metrics of various US states over the span of 12 years.
+**Target for ML Model**: `RESIDENTIAL_Sales`  
 
-* **Data sources**: Data acquired from [EIA's official website](https://www.eia.gov/).
-
-* **Data size**: 
-  * 1655 KB
-
-* **Data shape**:
-  * 8313 rows
-  * 24 columns
-
-* **Time period**: 
-  * Data spans from 2010 to 2022.
+**Potential Predictors**:
+- **Year and Month**: Time variables can capture temporal patterns and seasonality in the data.
+- **State**: Different states might have distinct consumption patterns.
+- **RESIDENTIAL_Revenue & RESIDENTIAL_Price**: To understand how sales correspond to revenue and price changes in the residential sector.
+- **COMMERCIAL_Sales & INDUSTRIAL_Sales**: Consumption in other sectors can indirectly affect or reflect residential consumption trends.
+- **TOTAL_Revenue & TOTAL_Price**: A macro perspective, understanding overall revenue and price dynamics can be predictive.2.
