@@ -74,4 +74,55 @@ Given the scope of the analysis, our primary research questions are:
 - **State**: Different states might have distinct consumption patterns.
 - **RESIDENTIAL_Revenue & RESIDENTIAL_Price**: To understand how sales correspond to revenue and price changes in the residential sector.
 - **COMMERCIAL_Sales & INDUSTRIAL_Sales**: Consumption in other sectors can indirectly affect or reflect residential consumption trends.
-- **TOTAL_Revenue & TOTAL_Price**: A macro perspective, understanding overall revenue and price dynamics can be predictive.2.
+- **TOTAL_Revenue & TOTAL_Price**: A macro perspective, understanding overall revenue and price dynamics can be predictive.
+
+# Exploratory Data Analysis
+
+Exploratory Data Analysis (EDA) is a critical step in understanding the patterns, relationships, and structures within our data. For this project, we primarily focused on understanding the electricity sales trends in Maryland across different sectors.
+
+## 1. Time Series Analysis of Sales Trends
+
+### a) Time Series Plot with Plotly
+
+![Time Series Plot with Plotly](https://github.com/DATA-606-2023-FALL-THURSDAY/Minj_Alisha/blob/main/data/Time%20Series%20Plot%20with%20Plotly.png)
+
+**Insight:**  
+From the time series plot, we observe that electricity consumption in the residential sector has shown a steady increase over the years. This indicates a growing demand in residential settings. Meanwhile, the commercial and industrial sectors present a fluctuating pattern, potentially influenced by economic or industrial cycles.
+
+### b) Monthly Sales Distribution for Maryland (2022)
+
+![Monthly Sales Distribution for Maryland - 2022](https://github.com/DATA-606-2023-FALL-THURSDAY/Minj_Alisha/blob/main/data/Monthly%20Sales%20Distribution%20for%20Maryland%20-%202022.png)
+
+**Insight:**  
+The bar chart showcases the distribution of monthly sales for residential electricity. Peaks may suggest months of higher sales. This can help in identifying months with unusually high or low sales, which is critical for business operations.
+
+## 2. Seasonal Patterns in Residential Sales
+
+### a) Average Monthly Residential Sales Over the Years
+
+![Seasonal Patterns](https://github.com/DATA-606-2023-FALL-THURSDAY/Minj_Alisha/blob/main/data/Seasonal%20Patterns.png)
+
+**Insight:**  
+The seasonal plot reveals discernible patterns:
+
+- **Summer Peak:** There is a notable peak during the summer months, particularly in July and August. This rise can likely be attributed to the increased use of air conditioning systems, fans, and other cooling devices.
+  
+- **Winter Rise:** Winter months, especially January, also witness a surge, possibly due to the reliance on electric heaters and increased indoor electricity-dependent activities.
+
+- **Stable Spring and Fall:** Consumption levels during April, May, September, and October are relatively consistent, likely due to milder temperatures reducing the need for extensive heating or cooling.
+
+- **Lowest in Fall:** November records the lowest average sales, possibly because it’s positioned after the summer peak and before the winter rise. The mild weather during this period might minimize the need for intensive heating or cooling.
+
+
+## 3. Bivariate Analysis
+
+### a) Correlation Heatmap
+
+![Correlation Heatmap](https://github.com/DATA-606-2023-FALL-THURSDAY/Minj_Alisha/blob/main/data/Correlation%20Heatmap.png)
+
+The heatmap reveals the following insights:
+- Strong positive correlations between several predictors.
+- A notably high correlation between `TOTAL_Revenue` and `TOTAL_Price` (0.85), implying a consistent pricing strategy across the board.
+- `RESIDENTIAL_Sales` shows significant positive relationships with both `RESIDENTIAL_Revenue` and `RESIDENTIAL_Price`. This suggests that sales in the residential sector are likely influenced by both price and revenue dynamics.
+- It's crucial to note that correlation doesn't necessarily imply causation. However, these findings do provide valuable insights into potential relationships and factors influencing residential electricity sales in Maryland.
+
