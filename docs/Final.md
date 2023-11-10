@@ -76,7 +76,20 @@ Given the scope of the analysis, our primary research questions are:
 - **COMMERCIAL_Sales & INDUSTRIAL_Sales**: Consumption in other sectors can indirectly affect or reflect residential consumption trends.
 - **TOTAL_Revenue & TOTAL_Price**: A macro perspective, understanding overall revenue and price dynamics can be predictive.
 
-# Exploratory Data Analysis
+# Exploratory Data Analysis (EDA)
+
+## Initial Data Cleaning
+
+Before delving into exploratory data analysis, a crucial step is ensuring the cleanliness and relevance of our dataset. The specific focus on Maryland and the timeline spanning 2010 to 2022 guides our cleaning process.
+
+### 1. Column Removal
+The 'Data Status' column, potentially irrelevant to our analysis, has been dropped. This streamlines our dataset, focusing on essential features.
+
+### 2. Handling Missing Values
+No duplicate or missing values were identified during the initial examination.
+
+### 3. Data Type Conversion
+To enhance the dataset's consistency, specific columns were converted to float type, ensuring uniformity for subsequent analysis.
 
 Exploratory Data Analysis (EDA) is a critical step in understanding the patterns, relationships, and structures within our data. For this project, we primarily focused on understanding the electricity sales trends in Maryland across different sectors.
 
