@@ -139,3 +139,87 @@ The heatmap reveals the following insights:
 - `RESIDENTIAL_Sales` shows significant positive relationships with both `RESIDENTIAL_Revenue` and `RESIDENTIAL_Price`. This suggests that sales in the residential sector are likely influenced by both price and revenue dynamics.
 - It's crucial to note that correlation doesn't necessarily imply causation. However, these findings do provide valuable insights into potential relationships and factors influencing residential electricity sales in Maryland.
 
+
+## Time Series Forecasting
+### Methodology
+
+### ARIMA Model
+The ARIMA (AutoRegressive Integrated Moving Average) model serves as a foundational time series forecasting technique. This methodology involves a comprehensive analysis of historical data to discern underlying patterns and trends. The model parameters, denoted as order (p, d, q), are meticulously chosen by assessing the autocorrelation and partial autocorrelation functions within the dataset.
+
+### SARIMA (Seasonal ARIMA) Model
+Building upon the ARIMA framework, the Seasonal ARIMA (SARIMA) model introduces an additional layer to account for seasonality. The methodology encompasses the identification and incorporation of seasonal patterns inherent in the time series data. Parameters related to seasonal trends are integrated into the ARIMA model, enhancing its predictive accuracy.
+
+### ETS Model
+The ETS (Error, Trend, Seasonality) model adopts a distinct approach by decomposing time series data into three key components: error, trend, and seasonality. Each component undergoes exponential smoothing to capture underlying patterns. The methodology entails determining the optimal level of smoothing for each component, providing a holistic view of the data's temporal dynamics.
+
+### LSTM Model
+Long Short-Term Memory (LSTM) represents a sophisticated recurrent neural network (RNN) architecture tailored for sequence prediction tasks. The LSTM model's methodology involves training a neural network with specialized memory cells capable of capturing long-term dependencies in sequential data. Its efficacy in time series forecasting, particularly for intricate patterns, positions it as a valuable tool in this context.
+
+## Interpretation of Results
+
+The performance of each forecasting model was meticulously evaluated, considering the following key metrics:
+
+- **ARIMA Model:**
+![ARIMA Forecast](https://github.com/DATA-606-2023-FALL-THURSDAY/Minj_Alisha/blob/main/data/ARIMA%20Forecast.png)
+
+  - **Mean Absolute Error (MAE):** 418,794.74
+  - **Mean Squared Error (MSE):** 241,358,590,866.97
+  - **Root Mean Squared Error (RMSE):** 491,282.60
+  - **R-squared (R2):** 0.00
+
+- **SARIMA Model:**
+![SARIMA Forecast](https://github.com/DATA-606-2023-FALL-THURSDAY/Minj_Alisha/blob/main/data/SARIMA%20Forecast.png)
+
+  - **Mean Absolute Error (MAE):** 195,646.46
+  - **Mean Squared Error (MSE):** 55,809,529,344.26
+  - **Root Mean Squared Error (RMSE):** 236,240.41
+  - **R-squared (R2):** 0.77
+
+- **ETS Model:**
+![ETS Forecast](https://github.com/DATA-606-2023-FALL-THURSDAY/Minj_Alisha/blob/main/data/ETS%20Forecast.png)
+
+  - **Mean Absolute Error (MAE):** 124,074.09
+  - **Mean Squared Error (MSE):** 23,632,254,389.68
+  - **Root Mean Squared Error (RMSE):** 153,727.86
+  - **R-squared (R2):** 0.90
+
+- **LSTM Model:**
+![LSTM Predictions](https://github.com/DATA-606-2023-FALL-THURSDAY/Minj_Alisha/blob/main/data/LSTM%20Predictions.png)
+
+  - **Mean Absolute Error (MAE):** 385,076.84
+  - **Mean Squared Error (MSE):** 200,148,281,997.56
+  - **Root Mean Squared Error (RMSE):** 447,379.35
+  - **R-squared (R2):** 0.20
+ 
+## Conclusion
+
+In conclusion, the evaluation of various forecasting models, including ARIMA, SARIMA, ETS, and LSTM, provided valuable insights into their respective performances.
+
+- The ARIMA model demonstrated challenges with a Mean Absolute Error (MAE) of 418,794.74, indicating a considerable average prediction error. The model's inability to explain variability is reflected in the R-squared (R2) value of 0.00.
+
+- The SARIMA model showcased improvements with a lower MAE of 195,646.46, suggesting enhanced accuracy in predictions. The R2 value of 0.77 indicates a better fit compared to the ARIMA model.
+
+- The ETS model outperformed others with a notable MAE of 124,074.09 and a high R2 value of 0.90. These results signify superior accuracy and better explanatory power.
+
+- The LSTM model, while having a higher MAE of 385,076.84, demonstrated a moderate predictive capability with an R2 value of 0.20.
+
+Considering these results, the ETS model emerges as the most reliable forecasting model for our dataset. Its low MAE and high R2 value suggest accurate predictions and a good fit to the data. Further analysis and refinement of the ETS model could enhance its forecasting capabilities.
+
+
+## Recommendations or Next Steps
+
+Drawing from the results obtained, several recommendations and potential next steps are proposed:
+
+- **Leverage SARIMA for Seasonal Trends:**
+  - Given the robust performance of the SARIMA model in capturing seasonal trends, consider its strategic utilization for future forecasting tasks influenced by seasonal variations.
+
+- **Explore ETS for Short-Term Precision:**
+  - The ETS model demonstrated commendable accuracy, especially in short-term predictions. Consider exploring its applicability in scenarios demanding precise short-term forecasts.
+
+- **Fine-Tune LSTM Hyperparameters:**
+  - While the LSTM model exhibited promise, further refinement of hyperparameters and exploration of diverse neural network architectures may unlock its full forecasting potential.
+
+- **Conduct Comprehensive Feature Engineering:**
+  - Delve into the possibility of incorporating additional features or external factors that may exert influence on the time series data. This holistic approach could contribute to enhanced forecasting accuracy.
+
+These recommendations aim to optimize the forecasting models' performance and provide actionable insights for future analyses.
