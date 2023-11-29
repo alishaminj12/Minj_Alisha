@@ -129,7 +129,29 @@ The seasonal plot reveals discernible patterns:
 
 ## 3. Bivariate Analysis
 
-### a) Correlation Heatmap
+### a) Scatter Plot 1: RESIDENTIAL_Sales vs. RESIDENTIAL_Revenue
+
+![RESIDENTIAL_Sales vs. RESIDENTIAL_Revenue](https://github.com/DATA-606-2023-FALL-THURSDAY/Minj_Alisha/blob/main/data/RESIDENTIAL_Sales%20vs%20RESIDENTIAL_Revenue.png)
+
+This scatter plot illustrates the relationship between Residential Sales and Revenue. Key insights from the analysis include:
+
+- **Revenue Range:** The data reveals a revenue range spanning from 225,123 to 472,807.
+- **Sales Fluctuations:** Sales exhibit fluctuations ranging between 1,536,738 and 3,316,855.
+- **Increasing Trend:** Over the observed time period, both revenue and sales show a general increasing trend.
+
+### b) Scatter Plot 2: RESIDENTIAL_Sales vs. RESIDENTIAL_Price
+
+![RESIDENTIAL_Sales vs. RESIDENTIAL_Price](https://github.com/DATA-606-2023-FALL-THURSDAY/Minj_Alisha/blob/main/data/RESIDENTIAL_Sales%20vs%20RESIDENTIAL_Price.png)
+
+This scatter plot explores the dynamics between Residential Sales and Price. Notable insights include:
+
+- **Price Range:** Prices vary within the range of 12.22 to 15.89.
+- **Inverse Relationship:** There is an observed inverse relationship between sales and prices, indicating that higher prices correspond to lower sales.
+- **Price Fluctuations:** Some fluctuation in prices is noted over the observed time frame.
+
+These visualizations are pivotal in understanding the complex interplay between residential sales, revenue, and pricing dynamics, providing valuable insights for strategic decision-making.
+
+### c) Correlation Heatmap
 
 ![Correlation Heatmap](https://github.com/DATA-606-2023-FALL-THURSDAY/Minj_Alisha/blob/main/data/Correlation%20Heatmap.png)
 
