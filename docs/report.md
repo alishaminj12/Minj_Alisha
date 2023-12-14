@@ -2,6 +2,7 @@
 
 **Author**: Alisha Minj  
 **Prepared for**: UMBC Data Science Master’s Degree Capstone  
+**Semester:** Fall 2023
 
 🔗 **GitHub**: [Alisha Minj's GitHub](https://github.com/DATA-606-2023-FALL-THURSDAY/Minj_Alisha)  
 🔗 **LinkedIn**: [Alisha Minj's LinkedIn](https://www.linkedin.com/in/alisha-minj)  
