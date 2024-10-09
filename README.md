@@ -1,1 +1,1 @@
-# Minj_Alisha
+# Electricity Consumption Analysis Project: Unveiling Maryland's Trends
