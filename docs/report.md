@@ -6,8 +6,8 @@
 
 🔗 **GitHub**: [Alisha Minj's GitHub](https://github.com/DATA-606-2023-FALL-THURSDAY/Minj_Alisha)  
 🔗 **LinkedIn**: [Alisha Minj's LinkedIn](https://www.linkedin.com/in/alisha-minj)  
-🔗 **PowerPoint Presentation**: [To be updated]  
-🔗 **YouTube Demo**: [To be updated] 
+🔗 **PowerPoint Presentation**: [PowerPoint Presentation](https://github.com/DATA-606-2023-FALL-THURSDAY/Minj_Alisha/blob/main/docs/Data%20606%20Final%20Project.pptx)  
+🔗 **YouTube Demo**: [YouTube Demo](https://www.youtube.com/watch?v=NmQZYqi9VxQ)  
 
 ## **Background**
 
